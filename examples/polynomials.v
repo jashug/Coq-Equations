@@ -26,6 +26,8 @@ Require Import NPeano.
 Require Import Nat.
 Require Import Coq.Vectors.VectorDef.
 
+Set Uniform Inductive Parameters.
+
 Derive Signature for vector eq.
 Coercion Bool.Is_true : bool >-> Sortclass.
 
